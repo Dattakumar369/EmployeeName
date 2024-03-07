@@ -1,0 +1,16 @@
+<hibernate-mapping>
+	<class name="testmaven.Employee" table="Employee" >
+		<id name="id" column="id" />
+ 		<property name="fullname" column="fullname" />
+		<property name="email" column="email" />
+	 <property name="designation" column="designation" />
+	 		<property name="mobileno" column="mobile" />
+	 	 <property name="password" column="password" />
+	   		<property name="gender" column="gender" />
+	   		 		<property name="relocate" column="relocate" />
+ 	   		<property name="previouscompany" column="previouscompany" />
+  		<property name="experience" column="experience" />
+		<property name="resume" column="resume"  />
+ 	</class>
+	
+</hibernate-mapping>
